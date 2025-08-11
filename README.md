@@ -28,7 +28,7 @@ _Even young infants can easily interpret the biological motions through pointlig
   <br>
   <sup>3</sup>Macao Polytechnic University
   <br>
-  <sup>&dagger;</sup>Corresponding author
+  <sup>*</sup>Corresponding author
   <br>
   <br>
 </div>   
