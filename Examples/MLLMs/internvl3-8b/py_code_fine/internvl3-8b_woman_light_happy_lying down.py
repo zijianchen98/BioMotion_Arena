@@ -1,0 +1,2 @@
+
+f = matplotlib.pyplot.figure()
