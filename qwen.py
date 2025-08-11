@@ -1,7 +1,7 @@
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 
-access_token = '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'
+access_token = 'xxxxxx'
 import subprocess
 import re
 from tqdm import tqdm
