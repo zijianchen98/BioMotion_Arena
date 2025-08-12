@@ -43,7 +43,7 @@ _Even young infants can easily interpret the biological motions through pointlig
 > We propose **BioMotion Arena**, the first biological motion-based visual preference evaluation framework for large models. We focus on ten typical human motions and introduce fine-grained control over gender, weight, mood, and direction. More than **45k** votes for **53** mainstream LLMs and MLLMs on 90 biological motion variants are collected.
 
 ## Release 🚀
-- [2025/08/11] 🔥 BioMotion Arena was highlighted in [Medium](https://medium.com/system-weakness/new-types-of-turing-tests-beyond-text-e739bcfd1a77) authored by [Berend Watchus](https://medium.com/@BerendWatchusIndependent)!
+- [2025/08/11] 🔥 BioMotion Arena was highlighted in [Medium](https://medium.com/system-weakness/new-types-of-turing-tests-beyond-text-e739bcfd1a77) authored by [Berend Watchus](https://medium.com/@BerendWatchusIndependent) !
 - [2025/08/08] ⚡️ [Project Website](https://zijianchen98.github.io/BioMotion-Arena/) for **BioMotion Arena** is online !
 
 ## Motivations 💡
