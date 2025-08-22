@@ -43,6 +43,7 @@ _Even young infants can easily interpret the biological motions through pointlig
 > We propose **BioMotion Arena**, the first biological motion-based visual preference evaluation framework for large models. We focus on ten typical human motions and introduce fine-grained control over gender, weight, mood, and direction. More than **45k** votes for **53** mainstream LLMs and MLLMs on 90 biological motion variants are collected.
 
 ## Release 🚀
+- [2025/08/22] 🔥 We add the Gradio version of BioMotion Arena.
 - [2025/08/11] 🔥 BioMotion Arena was highlighted in [Medium](https://medium.com/system-weakness/new-types-of-turing-tests-beyond-text-e739bcfd1a77) authored by [Berend Watchus](https://medium.com/@BerendWatchusIndependent) !
 - [2025/08/08] ⚡️ [Project Website](https://zijianchen98.github.io/BioMotion-Arena/) for **BioMotion Arena** is online !
 
@@ -70,6 +71,28 @@ Our **BioMotion Arena** currently includes 53 large models (both LLMs and MLLMs)
 
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:80%" src="figures/all_models.png">
+  </div>
+
+## Run with Gradio 🎮
+We use a third-party unofficial API. Otherwise, you need to update the API structure `(_def call_model_api_)` part of the code.
+
+
+```
+python biomotion_gradio.py --default-key xxxxxxxxxxx --special-key xxxxxxxxxx
+```
+Running on local URL:  http://127.0.0.1:7860
+
+1. You can use the default recommended prompt, or you can input your own desired action prompt word.
+2. Click the `Generate Code` button, and waiting for the responses from two anonymous models.
+3. Click the `Run Code A` and `Run Code B` buttons respectively. 
+4. Then, make a preference selection based on the motion animation result of the code execution. The result will be automatically saved locally at `preferences.csv`.
+
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="figures/screenshot_local.png">
+  </div>
+
+<div style="width: 80%; text-align: center; margin:auto;">
+      <img style="width:100%" src="figures/screenshot_full.png">
   </div>
 
 ## Code 💻
